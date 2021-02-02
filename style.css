@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+      background: #fff;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 50vh;
+      background: #111;
+    }
+    .swiper-container {
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 100vw;
+      height: 100vh;
+      background: #000;
+      -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
+
+    }
+
+    a h5 {
+      position: relative;
+      margin-bottom: 650px;
+      color: #ffffff;
+      font-size: 20px;
+    }
+
+
+    /* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+.swiper-container {
+  width: 100%;
+  padding-top: 200px;
+  margin-top: 100px;
+  padding-bottom: 200px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: contain;
+  width: 100px;
+  height: 380px;
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
